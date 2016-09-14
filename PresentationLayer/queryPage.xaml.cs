@@ -40,14 +40,9 @@ namespace PresentationLayer
         private void comboBoxCreate_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string getchxvalue = (comboBoxCreate.SelectedItem as ComboBoxItem).Content.ToString();
-            if(getchxvalue == "Employee")
+            if(getchxvalue == "Finance")
             {
-
-                this.Frame.Navigate(typeof(CreateEmployee));
-            }
-            else
-            {
-                this.Frame.Navigate(typeof(CreateFinance));
+                this.Frame.Navigate(typeof(CreatePage));
             }
         }
 

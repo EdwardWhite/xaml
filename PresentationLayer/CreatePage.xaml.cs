@@ -26,5 +26,25 @@ namespace PresentationLayer
         {
             this.InitializeComponent();
         }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(queryPage));
+        }
+
+        private void CreateButton_Click(object sender, RoutedEventArgs e)
+        {
+            string FirstName = tBFirstName.Text;
+            string SecondName = tBSecondName.Text;
+            string Gender;
+            //if(tBSecondName == "Male")
+            //{
+            //    Gender = Male.Content.ToString();
+            //}
+            //else
+            //{
+            //    Gender = Female.Content.ToString();
+            //}
+        }
     }
 }

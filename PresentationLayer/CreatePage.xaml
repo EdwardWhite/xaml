@@ -8,6 +8,27 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid HorizontalAlignment="Left" Height="491" Margin="205,126,0,0" VerticalAlignment="Top" Width="717">
+            <TextBlock x:Name="firstName1" HorizontalAlignment="Left" Height="39" Margin="50,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="gender" HorizontalAlignment="Left" Height="39" Margin="50,158,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="secondName" HorizontalAlignment="Left" Height="39" Margin="50,89,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="jobTitle" HorizontalAlignment="Left" Height="39" Margin="50,224,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="salary" HorizontalAlignment="Left" Height="39" Margin="50,355,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="department" HorizontalAlignment="Left" Height="39" Margin="50,290,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="firstName" HorizontalAlignment="Left" Height="39" Margin="50,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+            <TextBlock x:Name="location" HorizontalAlignment="Left" Height="39" Margin="50,418,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="99"/>
+            <TextBox x:Name="tBFirstName" HorizontalAlignment="Left" Height="14" Margin="198,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+            <TextBox x:Name="tBSecondName" HorizontalAlignment="Left" Height="14" Margin="198,89,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+            <TextBox x:Name="tBJobTitle" HorizontalAlignment="Left" Height="14" Margin="198,224,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+            <TextBox x:Name="tBDepartment" HorizontalAlignment="Left" Height="14" Margin="198,290,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+            <TextBox x:Name="tBLocation" HorizontalAlignment="Left" Height="14" Margin="198,418,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+            <TextBox x:Name="tBSalary" HorizontalAlignment="Left" Height="14" Margin="198,355,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+            <RadioButton x:Name="Male" Content="RadioButton" HorizontalAlignment="Left" Height="31" Margin="198,152,0,0" VerticalAlignment="Top" Width="77"/>
+            <RadioButton x:Name="Female" Content="RadioButton" HorizontalAlignment="Left" Height="31" Margin="360,152,0,0" VerticalAlignment="Top" Width="77"/>
+        </Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="97" Margin="435,29,0,0" TextWrapping="Wrap" Text="Add" VerticalAlignment="Top" Width="510" FontSize="48"/>
+        <Button x:Name="CreateButton" Content="Create" HorizontalAlignment="Left" Height="59" Margin="961,143,0,0" VerticalAlignment="Top" Width="120" Click="CreateButton_Click"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Height="59" Margin="961,281,0,0" VerticalAlignment="Top" Width="120" Click="Cancel_Click"/>
 
     </Grid>
 </Page>

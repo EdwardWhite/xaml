@@ -98,11 +98,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CreateEmployee.xaml.cs">
-      <DependentUpon>CreateEmployee.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CreateFinance.xaml.cs">
-      <DependentUpon>CreateFinance.xaml</DependentUpon>
+    <Compile Include="CreatePage.xaml.cs">
+      <DependentUpon>CreatePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -137,11 +134,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CreateEmployee.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="CreateFinance.xaml">
+    <Page Include="CreatePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
